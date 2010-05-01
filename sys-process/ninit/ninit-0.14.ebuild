@@ -22,7 +22,7 @@ src_compile() {
 }
 
 src_install() {
-	mkdir -p "${D}/usr/share/man" || die
+	dodir "/usr/share/man" || die
 	emake install DESTDIR="${D}" || die
 	dodoc CHANGES README
 }
