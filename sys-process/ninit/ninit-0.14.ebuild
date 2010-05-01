@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-
 DESCRIPTION="a small replacement of init"
 HOMEPAGE="http://riemann.fmi.uni-sofia.bg/ninit/"
 SRC_URI="http://riemann.fmi.uni-sofia.bg/ninit/${P}.tar.bz2"
